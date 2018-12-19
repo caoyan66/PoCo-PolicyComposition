@@ -1,0 +1,2 @@
+protocol=mbox; type=store; class=dog.mail.mbox.MboxStore; vendor=dog@dog.net.uk;
+protocol=maildir; type=store; class=net.ukrpost.storage.maildir.MaildirStore; vendor=Priocom Corp.;

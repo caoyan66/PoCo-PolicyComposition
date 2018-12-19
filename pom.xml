@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>edu.cseusf</groupId>
+  <artifactId>poco</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+   <maven.compiler.source>1.8</maven.compiler.source>
+   <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.apache.bcel</groupId>
+  		<artifactId>bcel</artifactId>
+  		<version>6.0</version>
+  	</dependency>
+  	
+	<dependency>
+    	<groupId>commons-io</groupId>
+    	<artifactId>commons-io</artifactId>
+    	<version>2.5</version>
+	</dependency>
+  	
+  	<dependency>
+  		<groupId>com.sun.mail</groupId>
+  		<artifactId>javax.mail</artifactId>
+  		<version>1.5.6</version>
+  	</dependency>
+  	
+  	<dependency>
+  		<groupId>com.sun</groupId>
+  		<artifactId>tools</artifactId>
+  		<version>1.8.0</version>
+  		<scope>system</scope>
+    	<systemPath>/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/lib/tools.jar</systemPath>
+  	</dependency>
+  	
+  	<!-- https://mvnrepository.com/artifact/org.kohsuke/asm5 -->
+	<dependency>
+    	<groupId>org.kohsuke</groupId>
+    	<artifactId>asm5</artifactId>
+    	<version>5.0.1</version>
+	</dependency>
+  </dependencies>
+  
+  <repositories>
+    <repository>
+        <id>osssonatype</id>
+        <name>OSS Sonatype</name>
+        <url>https://repo1.maven.org/maven2/</url>
+        <layout>default</layout>
+    </repository>
+</repositories>
+  
+</project>
